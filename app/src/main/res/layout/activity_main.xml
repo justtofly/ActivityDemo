@@ -29,5 +29,13 @@
         android:layout_margin="5dp"
         android:textSize="18sp"
         android:text="体验活动的生命周期"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:text="活动的启动模式"/>
 
 </LinearLayout>

@@ -19,7 +19,13 @@
         </activity>
         <activity android:name=".NormalActivity">
         </activity>
-        <activity android:name=".DialogActivity" android:theme="@style/Theme.AppCompat.Dialog">
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@style/Theme.AppCompat.Dialog">
+        </activity>
+        <activity android:name=".ModelActivity">
+        </activity>
+        <activity android:name=".First_Model1_Activity">
         </activity>
     </application>
 
