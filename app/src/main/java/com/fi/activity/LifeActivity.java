@@ -6,7 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-
+//1.Activity生命周期的演示
+//2.活动被回收了怎么办
 public class LifeActivity extends Activity implements View.OnClickListener {
 
     private static final String TAG =LifeActivity.class.getSimpleName() ;
@@ -19,10 +20,24 @@ public class LifeActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
 
         Log.e(TAG, "onCreate excute");
-
         setContentView(R.layout.activity_life);
+
+        //如果活动被回收了，就把之前保存的数据取出来
+        if(savedInstanceState!=null){
+            String tempData=savedInstanceState.getString("data_key");
+            Log.e(TAG,"取出之前的数据："+tempData);
+        }
+
         initView();
         initListener();
+    }
+
+    //临时数据的保存
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        String tempData="Something you just typed";
+        outState.putString("data_key",tempData);
     }
 
     @Override
