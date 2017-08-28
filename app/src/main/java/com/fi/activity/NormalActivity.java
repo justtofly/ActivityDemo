@@ -1,9 +1,10 @@
 package com.fi.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 
-public class NormalActivity extends Activity {
+import com.fi.base.BaseActivity;
+
+public class NormalActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

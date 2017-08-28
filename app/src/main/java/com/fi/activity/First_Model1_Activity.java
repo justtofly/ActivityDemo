@@ -1,15 +1,16 @@
 package com.fi.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.fi.base.BaseActivity;
+
 //standard是活动默认的启动模式
 //重点研究standard模式，因此不必在意这段代码有什么实际意义
-public class First_Model1_Activity extends Activity implements View.OnClickListener {
+public class First_Model1_Activity extends BaseActivity implements View.OnClickListener {
     private static final String TAG =First_Model1_Activity.class.getSimpleName() ;
     //声明控件
     private Button btn_standard;

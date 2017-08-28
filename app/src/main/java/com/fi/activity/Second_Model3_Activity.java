@@ -1,13 +1,14 @@
 package com.fi.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class Second_Model3_Activity extends Activity {
+import com.fi.base.BaseActivity;
+
+public class Second_Model3_Activity extends BaseActivity {
     //声明控件
     private Button btn_model3_second;
 

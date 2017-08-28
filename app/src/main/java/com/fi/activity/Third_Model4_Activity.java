@@ -1,10 +1,12 @@
 package com.fi.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+
+import com.fi.base.BaseActivity;
+
 //四、第三个页面
-public class Third_Model4_Activity extends Activity {
+public class Third_Model4_Activity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

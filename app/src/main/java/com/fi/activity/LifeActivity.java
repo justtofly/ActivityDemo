@@ -1,14 +1,16 @@
 package com.fi.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import com.fi.base.BaseActivity;
+
 //1.Activity生命周期的演示
 //2.活动被回收了怎么办
-public class LifeActivity extends Activity implements View.OnClickListener {
+public class LifeActivity extends BaseActivity implements View.OnClickListener {
 
     private static final String TAG =LifeActivity.class.getSimpleName() ;
     //声明控件

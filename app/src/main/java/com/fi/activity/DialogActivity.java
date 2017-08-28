@@ -1,9 +1,11 @@
 package com.fi.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
+
+import com.fi.base.BaseActivity;
+
 //对话框式的活动
-public class DialogActivity extends Activity {
+public class DialogActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
