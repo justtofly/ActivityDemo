@@ -19,6 +19,15 @@ public class BaseActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Log.e("BaseActivity","当前页面是："+getClass().getSimpleName());
+        Log.e("BaseActivity", "当前页面是：" + getClass().getSimpleName());
+
+        ActivityCollector.addActivity(this);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //表示将一个马上要销毁的活动从活动管理器里移除
+        ActivityCollector.removeActivity(this);
     }
 }

@@ -10,6 +10,11 @@
         android:text="Third_Model4_Activity页面"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_out_app"
+        android:text="退出应用程序"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
