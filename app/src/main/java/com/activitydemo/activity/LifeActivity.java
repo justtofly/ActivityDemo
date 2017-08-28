@@ -1,4 +1,4 @@
-package com.fi.activity;
+package com.activitydemo.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.fi.base.BaseActivity;
+import com.activitydemo.base.BaseActivity;
 
 //1.Activity生命周期的演示
 //2.活动被回收了怎么办

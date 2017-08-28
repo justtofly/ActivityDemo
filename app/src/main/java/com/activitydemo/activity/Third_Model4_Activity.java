@@ -1,12 +1,12 @@
-package com.fi.activity;
+package com.activitydemo.activity;
 
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.fi.base.ActivityCollector;
-import com.fi.base.BaseActivity;
+import com.activitydemo.base.ActivityCollector;
+import com.activitydemo.base.BaseActivity;
 
 //四、第三个页面
 public class Third_Model4_Activity extends BaseActivity {

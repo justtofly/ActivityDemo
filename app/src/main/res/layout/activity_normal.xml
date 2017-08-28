@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.fi.activity.NormalActivity">
+    tools:context="com.activitydemo.activity.NormalActivity">
     <TextView
         android:layout_centerInParent="true"
         android:text="This is NormalActivity!"

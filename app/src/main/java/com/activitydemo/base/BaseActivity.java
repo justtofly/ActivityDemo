@@ -1,4 +1,4 @@
-package com.fi.base;
+package com.activitydemo.base;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,8 +1,8 @@
-package com.fi.activity;
+package com.activitydemo.activity;
 
 import android.os.Bundle;
 
-import com.fi.base.BaseActivity;
+import com.activitydemo.base.BaseActivity;
 
 //对话框式的活动
 public class DialogActivity extends BaseActivity {

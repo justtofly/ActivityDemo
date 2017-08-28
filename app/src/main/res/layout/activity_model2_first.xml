@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".First_Model2_Activity">
+    tools:context="com.activitydemo.activity.First_Model2_Activity">
     <TextView
         android:text="First_Model2_Activity页面"
         android:layout_width="wrap_content"

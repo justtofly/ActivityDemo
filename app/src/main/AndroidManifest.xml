@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.fi.activity"
+<manifest package="com.activitydemo.activity"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
@@ -8,43 +8,43 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.activitydemo.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LifeActivity">
+        <activity android:name="com.activitydemo.activity.LifeActivity">
         </activity>
-        <activity android:name=".NormalActivity">
+        <activity android:name="com.activitydemo.activity.NormalActivity">
         </activity>
         <activity
-            android:name=".DialogActivity"
+            android:name="com.activitydemo.activity.DialogActivity"
             android:theme="@style/Theme.AppCompat.Dialog">
         </activity>
-        <activity android:name=".ModelActivity">
+        <activity android:name="com.activitydemo.activity.ModelActivity">
         </activity>
-        <activity android:name=".First_Model1_Activity">
+        <activity android:name="com.activitydemo.activity.First_Model1_Activity">
         </activity>
         <activity
-            android:name=".First_Model2_Activity"
+            android:name="com.activitydemo.activity.First_Model2_Activity"
             android:launchMode="singleTop">
         </activity>
-        <activity android:name=".Second_Model2_Activity">
+        <activity android:name="com.activitydemo.activity.Second_Model2_Activity">
         </activity>
         <activity
-            android:name=".First_Model3_Activity"
+            android:name="com.activitydemo.activity.First_Model3_Activity"
             android:launchMode="singleTask"/>
-        <activity android:name=".Second_Model3_Activity"/>
-        <activity android:name=".First_Model4_Activity"/>
+        <activity android:name="com.activitydemo.activity.Second_Model3_Activity"/>
+        <activity android:name="com.activitydemo.activity.First_Model4_Activity"/>
         <activity
-            android:name=".Second_Model4_Activity"
+            android:name="com.activitydemo.activity.Second_Model4_Activity"
             android:launchMode="singleInstance"/>
-        <activity android:name=".Third_Model4_Activity"/>
-        <activity android:name=".AActivity">
+        <activity android:name="com.activitydemo.activity.Third_Model4_Activity"/>
+        <activity android:name="com.activitydemo.activity.AActivity">
         </activity>
-        <activity android:name=".BActivity">
+        <activity android:name="com.activitydemo.activity.BActivity">
         </activity>
     </application>
 

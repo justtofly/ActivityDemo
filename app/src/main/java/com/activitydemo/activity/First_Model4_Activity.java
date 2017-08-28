@@ -1,4 +1,4 @@
-package com.fi.activity;
+package com.activitydemo.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.fi.base.BaseActivity;
+import com.activitydemo.base.BaseActivity;
 
 //四、singleInstance单一实例模式，第一个页面
 public class First_Model4_Activity extends BaseActivity implements View.OnClickListener {

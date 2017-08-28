@@ -1,10 +1,11 @@
-package com.fi.activity;
+package com.activitydemo.activity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.fi.base.BaseActivity;
+import com.activitydemo.base.BaseActivity;
+
 
 public class BActivity extends BaseActivity {
 
