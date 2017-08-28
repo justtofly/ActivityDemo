@@ -51,7 +51,7 @@ public class ModelActivity extends Activity implements View.OnClickListener {
                 startActivity(new Intent(this, First_Model3_Activity.class));
                 break;
             case R.id.btn_model4:
-                //startActivity(new Intent(this, ModelActivity.class));
+                startActivity(new Intent(this, First_Model4_Activity.class));
                 break;
             default:
                 break;

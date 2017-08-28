@@ -35,6 +35,10 @@
         </activity>
         <activity android:name=".First_Model3_Activity" android:launchMode="singleTask"/>
         <activity android:name=".Second_Model3_Activity"/>
+
+        <activity android:name=".First_Model4_Activity"/>
+        <activity android:name=".Second_Model4_Activity" android:launchMode="singleInstance"/>
+        <activity android:name=".Third_Model4_Activity"/>
     </application>
 
 </manifest>
