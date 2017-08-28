@@ -5,28 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".First_Model2_Activity">
+    tools:context=".First_Model3_Activity">
     <TextView
-        android:text="First_Model2_Activity页面"
+        android:text="First_Model3_Activity页面"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/btn_singletop1"
+        android:id="@+id/btn_singletask"
         android:textAllCaps="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_margin="5dp"
         android:textSize="18sp"
-        android:text="启动自己,处于栈顶"/>
-    <Button
-        android:id="@+id/btn_singletop2"
-        android:textAllCaps="false"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_margin="5dp"
-        android:textSize="18sp"
-        android:text="启动Second_Model2_Activity,自身不处于栈顶"/>
+        android:text="启动Second_Model3_Activity"/>
 
 </LinearLayout>

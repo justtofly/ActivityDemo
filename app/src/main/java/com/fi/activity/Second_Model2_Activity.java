@@ -1,13 +1,13 @@
 package com.fi.activity;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class Second_Model2_Activity extends AppCompatActivity {
+public class Second_Model2_Activity extends Activity {
     //声明控件
     private Button btn_model2_second;
 

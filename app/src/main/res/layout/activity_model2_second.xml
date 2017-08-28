@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.fi.activity.Second_Model2_Activity">
+    <TextView
+        android:text="Second_Model2_Activity页面"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/btn_model2_second"
         android:textAllCaps="false"
